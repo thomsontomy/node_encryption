@@ -2,8 +2,9 @@
   "name": "node_encryption",
   "version": "1.0.0",
   "description": "Node encryption test",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
+    "start": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/thomsontomy/node_encryption/issues"
   },
-  "homepage": "https://github.com/thomsontomy/node_encryption#readme"
+  "homepage": "https://github.com/thomsontomy/node_encryption#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0"
+  }
 }
